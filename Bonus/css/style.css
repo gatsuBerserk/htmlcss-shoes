@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
+/* Bonus */
+
+.buy{
+    display: none;
+}
+
+.items:hover .prima{
+    display: none;
+}
+
+.items:hover .buy{
+    opacity: 0.5;
+    display: inline-block;
+}
+
+/* / Bonus */
+
+ul#nav-fix li:hover{
+    background-color: whitesmoke;
+}
+
+ul#nav-fix li {
+    background-color: transparent;
+    border-radius: 50%;
+    padding: 20px;
+    list-style: none;
+    display:inline;
+  }
+
+nav>ul li a {
+    color: black;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+section{
+    height: 100vh;
+    position: relative;
+}
+
+div.items h1{  
+    font-size: 3em;
+    width: 800px;
+    height: 350px;
+    text-transform: uppercase;
+    word-spacing: 30px;
+}
+
+img{
+    width: 500px;
+    height: 350px;
+}
+
+
+.items{
+    
+    color: yellow;
+    text-align: center;
+}
+
+.transform{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50% );
+}
+
+.bg-color{
+    background-color: red;
+}
+
+.bg-color2{
+    background-color: green;
+}
+
+.bg-color3{
+    background-color: yellow;
+}
+
+#green-text{
+    color: green;
+} 
+
+#nav-fix{
+    position:fixed;
+	top: 20px;
+	right:20px;
+	z-index:2;
+}
