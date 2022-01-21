@@ -4,10 +4,8 @@
     box-sizing: border-box;
 }
 
-.clearfix::after{
-    content: "";
-    display: table;
-    clear: both;
+body{
+    font-family: 'Mochiy Pop P One', sans-serif;
 }
 .relative{
     position: relative;
@@ -25,7 +23,6 @@
 }
 
 section{
-    border: 2px solid black;
     width: 100vw;
     height: 100vh;
     position: relative;
@@ -37,13 +34,14 @@ img{
 }
 
 .items{
+    word-spacing: 30px;
     color: yellow;
     text-align: center;
-} 
+}
 
-div.items h1{ 
-    font-size: 2.5em;
-    width: 500px;
+div.items h1{  
+    font-size: 3em;
+    width: 800px;
     height: 350px;
     text-transform: uppercase;
 }
@@ -52,3 +50,14 @@ div.items h1{
     background-color: red;
 }
 
+.bg-color2{
+    background-color: green;
+}
+
+.bg-color3{
+    background-color: yellow;
+}
+
+#green-text{
+    color: green;
+}
