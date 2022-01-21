@@ -22,8 +22,22 @@ body{
     transform: translate(-50%, -50% );
 }
 
+
+ul#nav-fix li {
+    background-color: whitesmoke;
+    border-radius: 50%;
+    padding: 20px;
+    list-style: none;
+    display:inline;
+  }
+
+nav>ul li a {
+    color: black;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
 section{
-    width: 100vw;
     height: 100vh;
     position: relative;
 }
@@ -34,7 +48,7 @@ img{
 }
 
 .items{
-    word-spacing: 30px;
+    
     color: yellow;
     text-align: center;
 }
@@ -44,6 +58,7 @@ div.items h1{
     width: 800px;
     height: 350px;
     text-transform: uppercase;
+    word-spacing: 30px;
 }
 
 .bg-color{
@@ -60,4 +75,11 @@ div.items h1{
 
 #green-text{
     color: green;
+} 
+
+#nav-fix{
+    position:fixed;
+	top: 20px;
+	right:20px;
+	z-index:2;
 }
